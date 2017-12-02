@@ -10,8 +10,9 @@ import javax.swing.JEditorPane;
  */
 
 /**
- *
- * @author LinaCostanza
+ * Esta clase muestra las batallas contra monstruos
+ * @author Julian Amaya
+ * @author Miguel Urdaneta
  */
 public class battle extends javax.swing.JFrame {
 
