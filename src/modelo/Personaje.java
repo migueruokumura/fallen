@@ -6,15 +6,27 @@ package modelo;
  * and open the template in the editor.
  */
 
-/**
- *
- * @author LinaCostanza
- */
+ /**
+    *Este clase se usa para crear los personajes
+    * @author Julian Amaya 
+    * @author Miguel Urdaneta
+    */
 public class Personaje {
     private int ataque, defensa, vida, velocidad;
     private String Profesion;
     private String Nombre;
-
+    
+     /**
+    *Este constructor le da a los personajes creados las estadisticas del personaje
+    * @param ataque genera el ataque
+    * @param defensa genera la defensa
+    * @param vida genera la vida
+    * @param velocidad genera la velocidad
+    * @param Profesion genera la profesion
+    * @param Nombre genera el nombre
+    * @author Julian Amaya 
+    * @author Miguel Urdaneta
+    */
     public Personaje(int ataque, int defensa, int vida, int velocidad, String Profesion, String Nombre) {
         this.ataque = ataque;
         this.defensa = defensa;
@@ -25,6 +37,7 @@ public class Personaje {
     }
 
     /**
+     *
      * @return the ataque
      */
     public int getAtaque() {
