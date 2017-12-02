@@ -9,7 +9,8 @@ import modelo.Personaje;
 
 /**
  * Esta clase muestra la pelea contra el jefe final
- * @author Julian Amaya y Miguel Urdaneta
+ * @author Julian Amaya
+ * @author Miguel Urdaneta
  */
 public class batallajefe extends javax.swing.JFrame {
 
