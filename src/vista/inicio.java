@@ -7,8 +7,9 @@ package vista;
  */
 
 /**
- *
- * @author LinaCostanza
+ * Esta clase muestra La pantalla o menu de incio del juego 
+ * @author Julian Amaya
+ * @author Miguel Urdaneta
  */
 public class inicio extends javax.swing.JFrame {
 
