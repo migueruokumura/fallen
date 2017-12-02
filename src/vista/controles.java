@@ -7,8 +7,9 @@ package vista;
  */
 
 /**
- *
- * @author LinaCostanza
+ * Esta clase muestra los controles utilizados para el movimiento del personaje
+ * @author Julian Amaya
+ * @author Miguel Urdaneta
  */
 public class controles extends javax.swing.JFrame {
 
