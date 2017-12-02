@@ -21,7 +21,7 @@ public class batallajefe extends javax.swing.JFrame {
         initComponents();
         this.setLocationRelativeTo(null);
         this.setResizable(false);
-        vidamonstruo.setMaximum(pjm.getVida());
+        vidaboss.setMaximum(pjb.getVida());
         vidalobo.setMaximum(pjb1.getVida());
         vidamedusa.setMaximum(pjb2.getVida());
         vidaescorpion.setMaximum(pjb3.getVida());
