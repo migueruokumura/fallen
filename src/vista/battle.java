@@ -23,7 +23,7 @@ public class battle extends javax.swing.JFrame {
         initComponents();
         this.setLocationRelativeTo(null);
         this.setResizable(false);
-        vidaboss.setMaximum(pjb.getVida());
+        vidamonstruo.setMaximum(pjm.getVida());
         vidalobo.setMaximum(pjb1.getVida());
         vidamedusa.setMaximum(pjb2.getVida());
         vidaescorpion.setMaximum(pjb3.getVida());
