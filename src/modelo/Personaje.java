@@ -12,7 +12,7 @@ package modelo;
     * @author Miguel Urdaneta
     */
 public class Personaje {
-    private int ataque, defensa, vida, velocidad;
+    private int ataque, defensa, vida, velocidad,daño;
     private String Profesion;
     private String Nombre;
     
@@ -24,6 +24,7 @@ public class Personaje {
     * @param velocidad genera la velocidad
     * @param Profesion genera la profesion
     * @param Nombre genera el nombre
+    * @param Daño daño que recive un personaje al ser atacado 
     * @author Julian Amaya 
     * @author Miguel Urdaneta
     */
@@ -119,6 +120,20 @@ public class Personaje {
      */
     public void setNombre(String Nombre) {
         this.Nombre = Nombre;
+    }
+
+    /**
+     * @return the daño
+     */
+    public int getDaño() {
+        return daño;
+    }
+
+    /**
+     * @param daño the daño to set
+     */
+    public void setDaño(int daño) {
+        this.daño -= vida;
     }
 
  
