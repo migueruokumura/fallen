@@ -7,8 +7,9 @@ package vista;
  */
 
 /**
- *
- * @author LinaCostanza
+ * Esta clase muestra la historia que contextualiza al jugador y le da un argumento al juego
+ * @author Julian Amaya
+ * @author Miguel Urdaneta
  */
 public class historia2 extends javax.swing.JFrame {
 
