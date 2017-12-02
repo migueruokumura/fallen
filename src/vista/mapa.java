@@ -12,10 +12,10 @@ import javax.swing.JOptionPane;
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 /**
- *
- * @author LinaCostanza
+ * Esta clase muestra el mapa en el cual se desarrollara la primera mision del juego
+ * @author Julian Amaya
+ * @author Miguel Urdaneta
  */
 public class mapa extends javax.swing.JFrame {
 
