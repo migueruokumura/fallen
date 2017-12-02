@@ -6,13 +6,20 @@
 package controlador;
 import modelo.Personaje;
 
-/**
- *
- * @author LinaCostanza
- */
+ /**
+    *Este clase se usa para iniciar la pelea contra algun monstruo
+    * @author Julian Amaya 
+    * @author Miguel Urdaneta
+    */
+  
+ 
 public class Pelea {
     
-    
+     /**
+    *Este constructor se usa para agregar nuevas personajes de la clase Personaje
+    * @author Julian Amaya 
+    * @author Miguel Urdaneta
+    */
     Personaje lobo;
     Personaje medusa;
     Personaje escorpion;
@@ -27,7 +34,11 @@ public class Pelea {
     }
     
    
-    
+     /**
+    *Este metodo se usa para definir el ataque del personaje Lobo contra el monstruo
+    * @author Julian Amaya 
+    * @author Miguel Urdaneta
+    */
     public String atacar1(int seleccion) {
         String resulado = "";
         Personaje atacante, defensor;
@@ -53,6 +64,11 @@ public class Pelea {
         
         return resulado;
     }
+     /**
+    *Este metodo se usa para definir el ataque del personaje Medusa contra el monstruo
+    * @author Julian Amaya 
+    * @author Miguel Urdaneta
+    */
     public String atacar2(int seleccion) {
         String resulado = "";
         Personaje atacante, defensor;
@@ -78,6 +94,11 @@ public class Pelea {
         
         return resulado;
     }
+     /**
+    *Este metodo se usa para definir el ataque del personaje Escorpion contra el monstruo
+    * @author Julian Amaya 
+    * @author Miguel Urdaneta
+    */
     public String atacar3(int seleccion) {
         String resulado = "";
         Personaje atacante, defensor;
